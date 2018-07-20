@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA0CCAFF2101ED81004F9BDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0CCAFE2101ED81004F9BDF /* AppDelegate.m */; };
+		CA0CCB022101ED82004F9BDF /* wizvi_remote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA0CCB002101ED81004F9BDF /* wizvi_remote.xcdatamodeld */; };
+		CA0CCB052101ED82004F9BDF /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0CCB042101ED82004F9BDF /* MasterViewController.m */; };
+		CA0CCB082101ED82004F9BDF /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0CCB072101ED82004F9BDF /* DetailViewController.m */; };
+		CA0CCB0B2101ED82004F9BDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0CCB092101ED82004F9BDF /* Main.storyboard */; };
+		CA0CCB0D2101ED9D004F9BDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA0CCB0C2101ED9D004F9BDF /* Assets.xcassets */; };
+		CA0CCB102101ED9D004F9BDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0CCB0E2101ED9D004F9BDF /* LaunchScreen.storyboard */; };
+		CA0CCB132101ED9D004F9BDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0CCB122101ED9D004F9BDF /* main.m */; };
+		CA0CCB1D2101ED9F004F9BDF /* wizvi_remoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0CCB1C2101ED9F004F9BDF /* wizvi_remoteTests.m */; };
+		CA0CCB282101ED9F004F9BDF /* wizvi_remoteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0CCB272101ED9F004F9BDF /* wizvi_remoteUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA0CCB192101ED9F004F9BDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA0CCAF22101ED80004F9BDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA0CCAF92101ED81004F9BDF;
+			remoteInfo = "wizvi remote";
+		};
+		CA0CCB242101ED9F004F9BDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA0CCAF22101ED80004F9BDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA0CCAF92101ED81004F9BDF;
+			remoteInfo = "wizvi remote";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA0CCAFA2101ED81004F9BDF /* wizvi remote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wizvi remote.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0CCAFD2101ED81004F9BDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA0CCAFE2101ED81004F9BDF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA0CCB012101ED81004F9BDF /* wizvi_remote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = wizvi_remote.xcdatamodel; sourceTree = "<group>"; };
+		CA0CCB032101ED82004F9BDF /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		CA0CCB042101ED82004F9BDF /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		CA0CCB062101ED82004F9BDF /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		CA0CCB072101ED82004F9BDF /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CA0CCB0A2101ED82004F9BDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA0CCB0C2101ED9D004F9BDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA0CCB0F2101ED9D004F9BDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA0CCB112101ED9D004F9BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA0CCB122101ED9D004F9BDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA0CCB182101ED9F004F9BDF /* wizvi remoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wizvi remoteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0CCB1C2101ED9F004F9BDF /* wizvi_remoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wizvi_remoteTests.m; sourceTree = "<group>"; };
+		CA0CCB1E2101ED9F004F9BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA0CCB232101ED9F004F9BDF /* wizvi remoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wizvi remoteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0CCB272101ED9F004F9BDF /* wizvi_remoteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wizvi_remoteUITests.m; sourceTree = "<group>"; };
+		CA0CCB292101ED9F004F9BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA0CCAF72101ED81004F9BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0CCB152101ED9E004F9BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0CCB202101ED9F004F9BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA0CCAF12101ED80004F9BDF = {
+			isa = PBXGroup;
+			children = (
+				CA0CCAFC2101ED81004F9BDF /* wizvi remote */,
+				CA0CCB1B2101ED9F004F9BDF /* wizvi remoteTests */,
+				CA0CCB262101ED9F004F9BDF /* wizvi remoteUITests */,
+				CA0CCAFB2101ED81004F9BDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA0CCAFB2101ED81004F9BDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA0CCAFA2101ED81004F9BDF /* wizvi remote.app */,
+				CA0CCB182101ED9F004F9BDF /* wizvi remoteTests.xctest */,
+				CA0CCB232101ED9F004F9BDF /* wizvi remoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA0CCAFC2101ED81004F9BDF /* wizvi remote */ = {
+			isa = PBXGroup;
+			children = (
+				CA0CCAFD2101ED81004F9BDF /* AppDelegate.h */,
+				CA0CCAFE2101ED81004F9BDF /* AppDelegate.m */,
+				CA0CCB032101ED82004F9BDF /* MasterViewController.h */,
+				CA0CCB042101ED82004F9BDF /* MasterViewController.m */,
+				CA0CCB062101ED82004F9BDF /* DetailViewController.h */,
+				CA0CCB072101ED82004F9BDF /* DetailViewController.m */,
+				CA0CCB092101ED82004F9BDF /* Main.storyboard */,
+				CA0CCB0C2101ED9D004F9BDF /* Assets.xcassets */,
+				CA0CCB0E2101ED9D004F9BDF /* LaunchScreen.storyboard */,
+				CA0CCB112101ED9D004F9BDF /* Info.plist */,
+				CA0CCB122101ED9D004F9BDF /* main.m */,
+				CA0CCB002101ED81004F9BDF /* wizvi_remote.xcdatamodeld */,
+			);
+			path = "wizvi remote";
+			sourceTree = "<group>";
+		};
+		CA0CCB1B2101ED9F004F9BDF /* wizvi remoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA0CCB1C2101ED9F004F9BDF /* wizvi_remoteTests.m */,
+				CA0CCB1E2101ED9F004F9BDF /* Info.plist */,
+			);
+			path = "wizvi remoteTests";
+			sourceTree = "<group>";
+		};
+		CA0CCB262101ED9F004F9BDF /* wizvi remoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA0CCB272101ED9F004F9BDF /* wizvi_remoteUITests.m */,
+				CA0CCB292101ED9F004F9BDF /* Info.plist */,
+			);
+			path = "wizvi remoteUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA0CCAF92101ED81004F9BDF /* wizvi remote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA0CCB2C2101ED9F004F9BDF /* Build configuration list for PBXNativeTarget "wizvi remote" */;
+			buildPhases = (
+				CA0CCAF62101ED81004F9BDF /* Sources */,
+				CA0CCAF72101ED81004F9BDF /* Frameworks */,
+				CA0CCAF82101ED81004F9BDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "wizvi remote";
+			productName = "wizvi remote";
+			productReference = CA0CCAFA2101ED81004F9BDF /* wizvi remote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA0CCB172101ED9E004F9BDF /* wizvi remoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA0CCB2F2101ED9F004F9BDF /* Build configuration list for PBXNativeTarget "wizvi remoteTests" */;
+			buildPhases = (
+				CA0CCB142101ED9E004F9BDF /* Sources */,
+				CA0CCB152101ED9E004F9BDF /* Frameworks */,
+				CA0CCB162101ED9E004F9BDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA0CCB1A2101ED9F004F9BDF /* PBXTargetDependency */,
+			);
+			name = "wizvi remoteTests";
+			productName = "wizvi remoteTests";
+			productReference = CA0CCB182101ED9F004F9BDF /* wizvi remoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA0CCB222101ED9F004F9BDF /* wizvi remoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA0CCB322101ED9F004F9BDF /* Build configuration list for PBXNativeTarget "wizvi remoteUITests" */;
+			buildPhases = (
+				CA0CCB1F2101ED9F004F9BDF /* Sources */,
+				CA0CCB202101ED9F004F9BDF /* Frameworks */,
+				CA0CCB212101ED9F004F9BDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA0CCB252101ED9F004F9BDF /* PBXTargetDependency */,
+			);
+			name = "wizvi remoteUITests";
+			productName = "wizvi remoteUITests";
+			productReference = CA0CCB232101ED9F004F9BDF /* wizvi remoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA0CCAF22101ED80004F9BDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = gilles;
+				TargetAttributes = {
+					CA0CCAF92101ED81004F9BDF = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					CA0CCB172101ED9E004F9BDF = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = CA0CCAF92101ED81004F9BDF;
+					};
+					CA0CCB222101ED9F004F9BDF = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = CA0CCAF92101ED81004F9BDF;
+					};
+				};
+			};
+			buildConfigurationList = CA0CCAF52101ED80004F9BDF /* Build configuration list for PBXProject "wizvi remote" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA0CCAF12101ED80004F9BDF;
+			productRefGroup = CA0CCAFB2101ED81004F9BDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA0CCAF92101ED81004F9BDF /* wizvi remote */,
+				CA0CCB172101ED9E004F9BDF /* wizvi remoteTests */,
+				CA0CCB222101ED9F004F9BDF /* wizvi remoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA0CCAF82101ED81004F9BDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0CCB102101ED9D004F9BDF /* LaunchScreen.storyboard in Resources */,
+				CA0CCB0D2101ED9D004F9BDF /* Assets.xcassets in Resources */,
+				CA0CCB0B2101ED82004F9BDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0CCB162101ED9E004F9BDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0CCB212101ED9F004F9BDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA0CCAF62101ED81004F9BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0CCB132101ED9D004F9BDF /* main.m in Sources */,
+				CA0CCAFF2101ED81004F9BDF /* AppDelegate.m in Sources */,
+				CA0CCB052101ED82004F9BDF /* MasterViewController.m in Sources */,
+				CA0CCB022101ED82004F9BDF /* wizvi_remote.xcdatamodeld in Sources */,
+				CA0CCB082101ED82004F9BDF /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0CCB142101ED9E004F9BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0CCB1D2101ED9F004F9BDF /* wizvi_remoteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0CCB1F2101ED9F004F9BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0CCB282101ED9F004F9BDF /* wizvi_remoteUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA0CCB1A2101ED9F004F9BDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA0CCAF92101ED81004F9BDF /* wizvi remote */;
+			targetProxy = CA0CCB192101ED9F004F9BDF /* PBXContainerItemProxy */;
+		};
+		CA0CCB252101ED9F004F9BDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA0CCAF92101ED81004F9BDF /* wizvi remote */;
+			targetProxy = CA0CCB242101ED9F004F9BDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA0CCB092101ED82004F9BDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA0CCB0A2101ED82004F9BDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA0CCB0E2101ED9D004F9BDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA0CCB0F2101ED9D004F9BDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA0CCB2A2101ED9F004F9BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA0CCB2B2101ED9F004F9BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA0CCB2D2101ED9F004F9BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7GG328AWYM;
+				INFOPLIST_FILE = "wizvi remote/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zen.wizvi-remote";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA0CCB2E2101ED9F004F9BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7GG328AWYM;
+				INFOPLIST_FILE = "wizvi remote/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zen.wizvi-remote";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA0CCB302101ED9F004F9BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7GG328AWYM;
+				INFOPLIST_FILE = "wizvi remoteTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zen.wizvi-remoteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wizvi remote.app/wizvi remote";
+			};
+			name = Debug;
+		};
+		CA0CCB312101ED9F004F9BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7GG328AWYM;
+				INFOPLIST_FILE = "wizvi remoteTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zen.wizvi-remoteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wizvi remote.app/wizvi remote";
+			};
+			name = Release;
+		};
+		CA0CCB332101ED9F004F9BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7GG328AWYM;
+				INFOPLIST_FILE = "wizvi remoteUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zen.wizvi-remoteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "wizvi remote";
+			};
+			name = Debug;
+		};
+		CA0CCB342101ED9F004F9BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7GG328AWYM;
+				INFOPLIST_FILE = "wizvi remoteUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zen.wizvi-remoteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "wizvi remote";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA0CCAF52101ED80004F9BDF /* Build configuration list for PBXProject "wizvi remote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA0CCB2A2101ED9F004F9BDF /* Debug */,
+				CA0CCB2B2101ED9F004F9BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA0CCB2C2101ED9F004F9BDF /* Build configuration list for PBXNativeTarget "wizvi remote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA0CCB2D2101ED9F004F9BDF /* Debug */,
+				CA0CCB2E2101ED9F004F9BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA0CCB2F2101ED9F004F9BDF /* Build configuration list for PBXNativeTarget "wizvi remoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA0CCB302101ED9F004F9BDF /* Debug */,
+				CA0CCB312101ED9F004F9BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA0CCB322101ED9F004F9BDF /* Build configuration list for PBXNativeTarget "wizvi remoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA0CCB332101ED9F004F9BDF /* Debug */,
+				CA0CCB342101ED9F004F9BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CA0CCB002101ED81004F9BDF /* wizvi_remote.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CA0CCB012101ED81004F9BDF /* wizvi_remote.xcdatamodel */,
+			);
+			currentVersion = CA0CCB012101ED81004F9BDF /* wizvi_remote.xcdatamodel */;
+			path = wizvi_remote.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CA0CCAF22101ED80004F9BDF /* Project object */;
+}
